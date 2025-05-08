@@ -31,5 +31,16 @@ header p {
     font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: hwb(24 18% 23%);
-
- }
+}
+footer {
+    padding: 15px;
+    background-color: bisque;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+footer p {
+    color: hwb(24 18% 23%);
+    font-size: large;
+}
