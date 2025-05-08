@@ -33,7 +33,7 @@ header p {
     color: hwb(24 18% 23%);
 }
 footer {
-    padding: 15px;
+    padding: 10px;
     background-color: bisque;
     text-align: center;
     position: fixed;
@@ -43,4 +43,5 @@ footer {
 footer p {
     color: hwb(24 18% 23%);
     font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
