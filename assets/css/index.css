@@ -1,0 +1,10 @@
+.banner-index {
+    position: relative;
+}
+
+.banner-index img {
+    width: 100%;
+    height: 550px;
+    opacity: 50%;
+}
+
