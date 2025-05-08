@@ -9,7 +9,7 @@
     filter: contrast(125%);
 }
 
-.banner-index h1 {
+.banner-index form {
     position: absolute;
     font-size: 3em;
     color: rgb(0, 0, 0);
@@ -17,4 +17,19 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }
