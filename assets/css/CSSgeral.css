@@ -31,17 +31,17 @@ header p {
     font-size: 40px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: hwb(24 18% 23%);
+    width: 100%;
 }
 footer {
     padding: 10px;
     background-color: bisque;
     text-align: center;
-
-    width: 100%;
-    bottom: 0;
+    display: flex;
+    justify-content: space-between;
 }
 footer p {
     color: hwb(24 18% 23%);
-    font-size: large;
+    font-size: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
