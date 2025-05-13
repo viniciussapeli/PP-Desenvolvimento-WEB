@@ -37,14 +37,9 @@ footer {
     padding: 10px;
     background-color: bisque;
     text-align: center;
-<<<<<<< HEAD
-    position: static bottom;
+    display: flex;
     width: 100%;
     bottom: 0;
-=======
-    display: flex;
-    justify-content: space-between;
->>>>>>> 7db5c80d2f49ff1fa074f9fd4e56dd5532b36ba6
 }
 footer p {
     color: hwb(24 18% 23%);
