@@ -13,6 +13,10 @@
 .login-container h2 {
     font-size: 32px;
 }
+.LOGIN{
+    justify-content: flex-start;
+    width: 21%;
+}
 form {
     flex-direction: column;
     justify-content: center;
