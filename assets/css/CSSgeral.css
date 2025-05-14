@@ -39,7 +39,7 @@ footer {
     text-align: center;
     display: flex;
     bottom: 0;
-    position: bottom static;
+    position: fixed;
     justify-content: space-between;
 }
 footer p {
