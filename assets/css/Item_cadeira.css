@@ -1,0 +1,62 @@
+
+
+h1 {
+    font-size: 3em;
+    margin-left: 15%;
+    margin-top: 10px;
+
+}
+
+.img {
+    height: 80%;
+}
+
+.img img {
+    border-radius: 20px;
+}
+
+.img-inform {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15%;
+    margin-right: 20%;
+    margin-top: 10px;
+}
+
+.inform {
+    margin-left: 10%;
+}
+.rating {
+    font-size: 2em;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: rgb(212, 184, 23);
+}
+
+.seller {
+   font-size: 2em;
+   margin-bottom: 40px;
+}
+
+.price {
+    font-size: 2em;
+    margin-bottom: 80px;
+}
+
+.price strong {
+    font-size: 2.5em;
+}
+
+.add_cart {
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10%;
+    background-color: green;
+}
+
+.add_cart a {
+    text-decoration: none;
+    font-size: 2em;
+    color: white;
+}
