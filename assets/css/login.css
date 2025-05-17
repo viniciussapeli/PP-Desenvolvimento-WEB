@@ -1,8 +1,23 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1;
+    padding: 20px;
+}
 .main-login {
+
+    align-items: center;
     display: flex;
     justify-content: center;
 }
 .login-container {
+    flex-direction: column;
     border: 3px solid black;
     border-radius: 20px;
     text-align: center;
@@ -17,7 +32,11 @@
     justify-content: flex-start;
     width: 21%;
 }
+h2{
+    margin-top: 20px;
+}
 form {
+    margin-bottom: 20px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -28,6 +47,7 @@ form label {
     padding: 3px;
 }
 input {
+    width: 50%;
     border-radius: 20px;
     padding: 5px;
 }
