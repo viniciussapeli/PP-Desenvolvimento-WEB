@@ -22,7 +22,8 @@ main {
     padding: 15px;
     border: 2px solid black;
     border-radius: 10px;
-    margin-left: 33.6%;
+    margin-right: auto;
+    margin-left: auto;
     margin-bottom: 70px;
     padding: 15px 50px 15px 50px;
     width: 25%;
