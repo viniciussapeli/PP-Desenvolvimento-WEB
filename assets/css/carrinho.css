@@ -58,6 +58,10 @@ main {
     border: 1px solid black;
     width: 250px;
 }
+#comprando {
+    text-decoration: none;
+    color: white;
+}
 .continuarcomprando {
     color: white;
     justify-items: center;
