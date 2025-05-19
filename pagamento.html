@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="assets/css/CSSgeral.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/pagamento.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <a href="index.html" class="icons"><i class="fa fa-home" aria-hidden="true"></i></a><!--Logo-->
+            <p>Móveis Top</p><!--nome provisório-->
+        </div>
+        <nav class="icons">
+            <a href="Cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+            <a href="Login.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+        </nav>
+    </header>
+    <main>
+        <div class="container-pagamento">
+            <h2>Dados pessoais</h2>
+
+            <div class="email">
+                <label for="">E-mail:</label>
+                <input type="text" class="texto" required>
+            </div>
+            <div class="nombre">
+                <label for="nome">Nome:</label>
+                <input type="text" class="textonome" required>
+                <label for="sobrenome">Sobrenome:</label>
+                <input type="text" class="textonome" required>
+            </div>
+            <div>
+                <label for="CPF">CPF:</label>
+                <input type="text" class="inpCpfTel" required>
+                <label for="telefone">Telefone</label>
+                <input type="tel" class="inpCpfTel" required>
+            </div>
+            <a href="">Quero comprar como pessoa juridica</a>
+            <div>
+                <input type="checkbox">
+                <label for="">Quero receber e-mails com promoção!</label><br>
+                <input type="checkbox">
+                <label for="">Concorda com os <i>Termos e condições gerais</i></label>
+            </div>
+
+            <h2>Entrega</h2>
+            <nav>
+                <a href="" class="rebarba">Receber</a>
+                <a href="" class="rebarba">Retirar</a>
+            </nav>
+            <div>
+                <div>
+                    <label for="cep">CEP</label>
+                    <input type="number" class="inpCepNum" required>
+                    <label for="numeroEndereco">Número</label>
+                    <input type="number" class="inpCepNum" required><br>
+                    <label for="complemento">Complemento e Referência</label>
+                    <input type="text" class="referencia"><br>
+                    <label for="destinatario">Destinatario</label>
+                    <input type="text" class="inpDestData" required>
+                    <label for="dataEntrega">Agende a entrega</label>
+                    <input type="week" class="inpDestData" required>
+                </div>
+            </div>
+            <div class="pagamento">
+                <label for="Pagamento">Escolha forma de Pagamento</label>
+                <select name="Pagamento" id="Pagamento">
+                    <option value="">PIX</option>
+                    <option value="">PIX parcelado</option>
+                    <option value="">Cartão cretito</option>
+                    <option value="">Boleto Bácario</option>
+                    <option value="">Mercado Pago</option>
+                    <option value="">Nubank</option>
+                    <option value="">Adicione vale presente</option>
+                </select>
+            </div>
+            <a href="" class="FinalP">Finalizar Pagamento</a>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Site desenvolvido por: Nicolas Schwamberger, Pedro Henrique Diegoli Burigo e Vinícius Bertolini Sapeli
+            </p>
+            <p><strong>Móveis Top sua Loja de Imóveis!</strong></p>
+        </div>
+        <nav class="icons">
+            <a href="index.html"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="index.html"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>

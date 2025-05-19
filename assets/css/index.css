@@ -33,6 +33,7 @@ form {
     align-items: center;
     margin-bottom: 20px;
 }
+
 .produtos {
     text-align: center;
     padding: 20px;
@@ -49,7 +50,7 @@ form {
 }
 
 .item:hover {
-    transform: scale(1.05);
+
     cursor: pointer;
 }
 
@@ -62,6 +63,7 @@ form {
     justify-content: space-around;
     padding: 20px 0px;
 }
+
 .secao-items2 {
     display: flex;
     justify-content: space-around;
