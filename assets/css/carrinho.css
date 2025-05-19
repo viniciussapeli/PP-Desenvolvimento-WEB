@@ -2,12 +2,13 @@ html,
 body {
     height: 100%;
     margin: 0;
-}
+}/* Definindo altura e margem 0 para o html e body */
 
 body {
     display: flex;
     flex-direction: column;
-}
+}/* Definindo o display para flexível e direção de coluna */
+
 
 main {
     flex: 1;
