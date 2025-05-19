@@ -1,11 +1,12 @@
+/*O css dessa pagina será usada como base para o header, footer e body das outras páginas, podendo ter alterações direta */
 * {
     margin: 0;
     padding: 0;
-}
+} /*zerando a margem e o padding da pagina inteira*/
 
 body {
     font-size: 16px;
-}
+}/*Definindo um tamanho padrão para a fonte do body*/
 
 header {
     align-items: center;
@@ -17,19 +18,19 @@ header {
     z-index: 2;
     font-size: 1em;
     text-decoration: none;
-}
+} /*Estilização do header*/
 
 header div {
     display: flex;
     justify-content: center;
-}
+}/*config do div dentro do header*/
 
 header a {
     font-size: 50px;
     text-decoration: none;
     color: hwb(24 18% 23%);
     padding: 10px;
-}
+} /*config dos a que permitem andar entre páginas dentro do header*/
 
 header p {
     padding: 15px;
@@ -37,20 +38,22 @@ header p {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: hwb(24 18% 23%);
     width: 100%;
-}
+} /*config do texto dentro do header*/
 
 footer {
     padding: 10px;
     background-color: bisque;
     text-align: center;
+    position: fixed;
+    width: 100%;
     display: flex;
     bottom: 0;
     position: static;
     justify-content: space-between;
-}
+} /*estilização do footer*/
 
 footer p {
     color: hwb(24 18% 23%);
     font-size: 14px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+} /*config do texto dentro do footer*/
