@@ -1,13 +1,13 @@
 .banner-index {
     position: relative;
-}
+}/*definindo a posição do banner*/
 
 .banner-index img {
     width: 100%;
     opacity: 50%;
     filter: sepia(25%);
     filter: contrast(125%);
-}
+}/*definindo a opacidade, filtro e tamanho do banner*/
 
 .banner-index form {
     position: absolute;
@@ -17,27 +17,26 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 1;
-}
+}/*mexendo na posição da barra de pesquisa que tá dentro do banner*/
 
 form input {
     width: 100%;
     padding: 10px;
     border-radius: 15px;
     border: 2px solid black;
-}
-
+}/*mudando tamanho, espaçamento interno, alizanmento da borda e a propria borda*/
 form {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-}
+}/*configurando a formatação do form*/
 
 .produtos {
     text-align: center;
     padding: 20px;
-}
+}/*configurando o espaçamento do texto*/
 
 .item {
     border: 2px solid black;
@@ -45,27 +44,24 @@ form {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0px 0px 10px #333;
-    transition: transform 2000ms ease;
-
-}
+}/*configurando a borda, tamanho, espaçamento interno e sombra*/
 
 .item:hover {
-
     cursor: pointer;
-}
+}/*customização do cursor*/
 
 .item img {
     width: 100%;
-}
+}/*configurando o tamanho da imagem dos produtos*/
 
 .secao-items {
     display: flex;
     justify-content: space-around;
     padding: 20px 0px;
-}
+}/*configurando o espaçamento entre os itens*/
 
 .secao-items2 {
     display: flex;
     justify-content: space-around;
     padding: 20px 0px;
-}
+}/*configurando o espaçamento entre os itens da segunda linha*/
