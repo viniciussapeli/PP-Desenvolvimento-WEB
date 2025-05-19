@@ -24,7 +24,7 @@ form input {
     padding: 10px;
     border-radius: 15px;
     border: 2px solid black;
-}/*mudando tamanho, espaçamento interno, alizanmento da borda e a propria borda*/
+}/*mudando tamanho, espaçamento interno, alinhamento da borda e a propria borda*/
 
 form {
     display: flex;
