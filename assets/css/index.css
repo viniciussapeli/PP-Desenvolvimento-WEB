@@ -25,6 +25,7 @@ form input {
     border-radius: 15px;
     border: 2px solid black;
 }/*mudando tamanho, espaçamento interno, alizanmento da borda e a propria borda*/
+
 form {
     display: flex;
     flex-direction: column;
