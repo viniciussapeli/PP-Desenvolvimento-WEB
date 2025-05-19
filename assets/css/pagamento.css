@@ -2,12 +2,12 @@
 body {
     height: 100%;
     margin: 0;
-}
+}/* Definindo altura e margem 0 para o html e body */
 
 body {
     display: flex;
     flex-direction: column;
-}
+}/* Definindo o display para flexível e direção de coluna */
 
 main {
     flex: 1;
@@ -15,50 +15,44 @@ main {
     text-align: center;
     align-items: center;
 }
-
-hr {
-    width: 50%;
-    margin: 0 auto;
-}
+/* Definindo o padding, o alinhamento e o display do main-login */
 
 h2 {
     font-size: 3em;
     margin: 25px;
-}
+}/* tamanho da fonte do texto e a margem do h2 */
 
-hr {
-    margin: 15px;
-}
 
 .container-pagamento label {
     font-size: 1.5em;
-}
+}/*tamanho da fonte dos label que estão no container-pagamento*/
 
 .email input {
     width: 20%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
-}
+}/* tamanho, espaçamento interno, arredondamento e margem do input que tá dentro do email */
 
 .nombre input {
     width: 10%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
-}
+}/* tamanho, espaçamento interno, arredondamento e margem do input que tá dentro do nombre */
+
 
 .inpCpfTel {
     width: 10%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
-}
+}/* tamanho, espaçamento interno, arredondamento e margem do input que tá dentro do inpCpfTel */
 
 a {
     font-size: 1.5em;
     margin-bottom: 10px;
-}
+}/*tamanho da fonte e da margem da parte de baixo*/
 
 .rebarba {
     text-decoration: none;
@@ -68,32 +62,32 @@ a {
     margin: 10px;
     border: 2px black solid;
     border-radius: 20px;
-}
+}/*configurações do botão, sendo a cor do texto, fundo, espaçamento interno, margem, borda e arredondamento*/
 
 nav {
     margin: 25px;
-}
+}/*margem da nav*/
 
 .inpCepNum {
     width: 10%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
-}
+}/* tamanho, espaçamento interno, arredondamento e margem do input que tá dentro do inpCepNum */
 
 .referencia {
     width: 20%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
-}
+}/*o mesmo que os anteriores*/
 
 .inpDestData {
     width: 10%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
-}
+} /*o mesmo que os anteriores*/
 
 #Pagamento {
     width: 20%;
@@ -101,7 +95,7 @@ nav {
     border-radius: 20px;
     margin: 10px;
     margin-bottom: 60px;
-}
+} /*o mesmo que os anteriores*/
 
 .FinalP {
     text-decoration: none;
@@ -111,4 +105,4 @@ nav {
     margin: 30px;
     border: 2px black solid;
     border-radius: 20px;
-}
+}/*configurações do botão, sendo a cor do texto, fundo, espaçamento interno, margem, borda e arredondamento*/

@@ -2,24 +2,24 @@ html,
 body {
     height: 100%;
     margin: 0;
-}
+}/* Definindo altura e margem 0 para o html e body */
 
 body {
     display: flex;
     flex-direction: column;
-}
+}/* Definindo o display para flexível e direção de coluna */
 
 main {
     flex: 1;
     padding: 20px;
-}
+} /* Definindo o padding do main */
 
 .main-login {
 
     align-items: center;
     display: flex;
     justify-content: center;
-}
+}/* Definindo o alinhamento e o display do main-login */
 
 .login-container {
     flex-direction: column;
@@ -29,20 +29,20 @@ main {
     margin: 20px;
     width: 50%;
     box-shadow: 0px 0px 20px #333;
-}
+}/* configurações do container de login com alinhamento de texto, borda, arredondamento, margin, tamanho e sombra */
 
 .login-container h2 {
     font-size: 32px;
-}
+}/*tamanho da fonte do texto*/
 
 .LOGIN {
     justify-content: flex-start;
     width: 21%;
-}
+}/* Definindo o alinhamento e o tamanho do botão de login */
 
 h2 {
     margin-top: 20px;
-}
+}/*altera a margem no topo do h2*/
 
 form {
     margin-bottom: 20px;
@@ -50,18 +50,18 @@ form {
     justify-content: center;
     align-items: center;
     padding: 10px;
-}
+}/*altera a margem da parte de baixo do form, o alinhamento do texto e o espaçamento interno com o padding*/
 
 form label {
     font-size: 24px;
     padding: 3px;
-}
+}/*configurações das perguntas do form, sendo tamanho da fonte e o espaçamento interno*/
 
 input {
     width: 50%;
     border-radius: 20px;
     padding: 5px;
-}
+}/*configurações do input, sendo o tamanho, arredondamento e espaçamento interno*/
 
 input[type='submit'] {
     width: 50%;
@@ -71,18 +71,18 @@ input[type='submit'] {
     color: aliceblue;
     font-size: 1em;
     margin-top: 20px;
-}
+}/*configurações do botão de submit, sendo o tamanho, arredondamento, cor de fundo, cor da fonte, tamanho da fonte e a margem no topo*/
 
 input[type='submit']:hover {
     cursor: pointer;
-}
+}/*alteração do cursor quando está com ele encima do input*/
 
 .esqueceu a {
     color: black;
     text-decoration: none;
-}
+}/* configurações do link de esqueceu a senha, sendo a cor e o estilo do texto */
 
 .esqueceu a:hover {
     color: red;
     cursor: pointer;
-}
+}/* configurações do link de esqueceu a senha quando está com o mouse encima*/
