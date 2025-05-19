@@ -44,13 +44,7 @@ form {
     border-radius: 10px;
     padding: 10px;
     box-shadow: 0px 0px 10px #333;
-<<<<<<< HEAD
-    
-
-}
-=======
 }/*configurando a borda, tamanho, espaçamento interno e sombra*/
->>>>>>> 06c5442290d5cb3d51cd67ca0ddac133a32867ec
 
 .item:hover {
     cursor: pointer;
@@ -70,8 +64,4 @@ form {
     display: flex;
     justify-content: space-around;
     padding: 20px 0px;
-<<<<<<< HEAD
-}
-=======
 }/*configurando o espaçamento entre os itens da segunda linha*/
->>>>>>> 06c5442290d5cb3d51cd67ca0ddac133a32867ec
