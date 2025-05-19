@@ -1,11 +1,13 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
 }
+
 body {
     font-size: 16px;
 }
-header  {
+
+header {
     align-items: center;
     background-color: bisque;
     justify-content: space-between;
@@ -16,25 +18,28 @@ header  {
     font-size: 1em;
     text-decoration: none;
 }
-header div{
+
+header div {
     display: flex;
     justify-content: center;
 }
+
 header a {
     font-size: 50px;
     text-decoration: none;
     color: hwb(24 18% 23%);
     padding: 10px;
 }
+
 header p {
     padding: 15px;
     font-size: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: hwb(24 18% 23%);
     width: 100%;
 }
+
 footer {
-   
     padding: 10px;
     background-color: bisque;
     text-align: center;
@@ -43,6 +48,7 @@ footer {
     position: static;
     justify-content: space-between;
 }
+
 footer p {
     color: hwb(24 18% 23%);
     font-size: 14px;

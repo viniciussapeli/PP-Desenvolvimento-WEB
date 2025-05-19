@@ -1,53 +1,65 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
+
 body {
     display: flex;
     flex-direction: column;
 }
+
 main {
     flex: 1;
     padding: 20px;
     text-align: center;
-    align-items: center; 
+    align-items: center;
 }
-hr{
+
+hr {
     width: 50%;
     margin: 0 auto;
 }
-h2{
+
+h2 {
     font-size: 3em;
     margin: 25px;
 }
-hr{
+
+hr {
     margin: 15px;
 }
-.container-pagamento label{
+
+.container-pagamento label {
     font-size: 1.5em;
 }
+
 .email input {
     width: 20%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
 }
+
 .nombre input {
     width: 10%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
 }
+
 .inpCpfTel {
     width: 10%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
 }
+
 a {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
+
 .rebarba {
     text-decoration: none;
     color: white;
@@ -57,35 +69,41 @@ a {
     border: 2px black solid;
     border-radius: 20px;
 }
+
 nav {
     margin: 25px;
 }
+
 .inpCepNum {
     width: 10%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
 }
+
 .referencia {
     width: 20%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
 }
+
 .inpDestData {
     width: 10%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
 }
-#Pagamento{
+
+#Pagamento {
     width: 20%;
     padding: 5px;
     border-radius: 20px;
     margin: 10px;
     margin-bottom: 60px;
 }
-.FinalP{
+
+.FinalP {
     text-decoration: none;
     color: white;
     background-color: black;
