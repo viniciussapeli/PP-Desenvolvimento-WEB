@@ -5,11 +5,11 @@ h1 {
 
 }/*tamanho do texto do h1 e a margem */
 
-.img {
-    height: 80%;
+img {
+    height: 600px;
 }/*altura da imagem */
 
-.img img {
+img {
     border-radius: 20px;
 }  /*borda arredondada da imagem */
 
@@ -59,23 +59,3 @@ h1 {
     font-size: 2em;
     color: white;
 }/*decoração do link do botão*/
-
-#sofaid {
-    height: 600px;
-}/*altura da imagem */
-
-#mesaid {
-    height: 600px;
-} /*altura da imagem */
-
-#lustreid {
-    height: 600px;
-} /*altura da imagem */
-
-#armarioid {
-    height: 600px;
-} /*altura da imagem */
-
-#guardaid {
-    height: 600px;
-} /*altura da imagem */

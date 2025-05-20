@@ -44,7 +44,7 @@ footer {
     padding: 10px;
     background-color: bisque;
     text-align: center;
-    position: fixed;
+
     display: flex;
     bottom: 0;
     position: static;
